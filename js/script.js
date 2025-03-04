@@ -42,6 +42,9 @@ document.getElementById('surpriseButton').addEventListener('click', function () 
     // Change content to proposal page
     document.body.innerHTML = `
         <div id="proposalPage">
+            <h4>Will you be my permanent Pasandida Aurat?</h4>
+            <h3>Will you be my permanent rasmalayi?</h3>
+            <h2>Will you be my wifeeyyy?</h2>
             <h1>Will you be mine forever? ❤️</h1>
             <img src="images/propose1.png" alt="Boy proposing to girl" class="proposal-image">
             <button id="acceptButton">Yes, I Accept! 💍</button>
@@ -53,7 +56,8 @@ document.getElementById('surpriseButton').addEventListener('click', function () 
     document.getElementById('acceptButton').addEventListener('click', function () {
         document.body.innerHTML = `
             <div id="proposalPage">
-                <h1>Yay! 🎉 You made my day! ❤️</h1>
+                <h1>Yay! 🎉 I love you sooo muchhhh 🌹 💑 ❤️</h1>
+                <img src="images/bears.gif" alt="Happy couple" class="proposal-image">
             </div>
         `;
     });
